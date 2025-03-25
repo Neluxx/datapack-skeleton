@@ -1,31 +1,23 @@
 # Datapack skeleton
 
-Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
----
+## Features
 
-# Features
 - Feature 1
+- Feature 2
 
----
+## Installation
 
-# Installation
-- Download the datapack and resourcepack ZIP file.
-- Move the datapack into your world’s datapacks folder: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Move the resourcepack into your resourcepacks folder and enable it: ``.minecraft/resourcepacks/``
-- Start your world & type: ``/reload``
-- (Optional) Verify it’s active: ``/datapack list``
+- Download the [datapack and resourcepack](https://github.com/Neluxx/datapack-skeleton/releases/latest)
+- Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
+- Move the resourcepack inside ``.minecraft/resourcepacks`` ([How to load a resourcepack?](https://minecraft.wiki/w/Resource_pack#Behavior))
+- Reload the world or run ``/reload``
 
----
+## Uninstalling
 
-# Uninstalling
+- Delete the datapack from ``.minecraft/saves/<world>/datapacks``
+- Delete the resourcepack from ``.minecraft/resourcepacks``
 
-To remove the datapack:
-
-- Delete the datapack inside your datapacks directory: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Reload the world: ``/reload``
-
-To remove the resourcepack:
-
-- Disable the resourcepack.
-- Delete the resourcepack inside your resourcepacks directory: ``.minecraft/resourcepacks/``
+> **_NOTE:_** An optional note
